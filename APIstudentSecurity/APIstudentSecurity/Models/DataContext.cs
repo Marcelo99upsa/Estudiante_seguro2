@@ -9,5 +9,7 @@ namespace APIstudentSecurity.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<APIstudentSecurity.Models.Student> Students { get; set; }
     }
 }
